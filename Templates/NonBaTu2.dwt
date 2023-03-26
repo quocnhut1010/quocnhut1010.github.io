@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body >
+	<div class="container">
+    	<div class="menu">
+    	<div class="up">
+           	<ul>
+       			<li  class="logo">
+                
+                <a href="../home.html">
+                <img src="../Image/images (1).jpg" width="170" height="45" />
+                </a>
+                   <li>
+           			<a href="../Home.html">
+<img src="../Image/tải xuống (4).png" width="25" height="30" /> Trang chủ </a>
+                   </li>
+                   <li>
+           			<a href="../Introduce.html" >
+                    <img src="../Image/tải xuống (6).png"width="25" height="30" />
+                    
+                    Giới thiệu
+                    </a>
+                   </li>
+                   <li>
+           			<a href="../Product.html" >
+                    <img src="../Image/tải xuống (7).png" width="25" height="30" />
+                    Sản phẩm
+                    </a>
+                    <ul>
+                    	<ul>
+                    	 
+                        <li><a href="../NonBaoHiem.html">Nón Bảo Hiểm</a></li>
+                        
+                        <li><a href="../MocKhoa.html">Móc Khoá</a></li>
+                        <li><a href="../DoBaoHo.html">Đồ bảo hộ</a></li>
+                       </ul>
+                     </ul>
+                        
+                    </li>
+                   <li>
+           			<a href="../Dangnhap.html" >
+                    <img src="../Image/tải xuống (9).png" width="25" height="30" /> Đăng Nhập</a>
+                   </li>
+                   <li>
+           			<a href="../Dangky.html" >
+                    <img src="../Image/images (3).png" width="25" height="30" />
+                    Đăng Ký
+                    </a>
+                   </li>
+           		</ul>
+            </div>
+         <div class="down">
+            <div class="search">
+            	<input type="" name="" placeholder="Tìm kiếm trên Phượt Travel" />
+                	<button><img src="../Image/tải xuống (8).png" /></button>
+              
+                        
+            </div>
+         </div>
+            
+</div>
+ <div class="article">
+ 	<div class="menu4">
+    <ul>
+    <a href="#">Cam Kết</a>
+    </ul>
+    <div class="menu3">
+     <ul>
+		
+    	<li>
+         <img src="../Image/icon_1.png" alt="" />
+        	<a href=""> Sản phẩm cam kết chất lượng</a>
+            
+          </li>
+          
+    </ul>
+    
+   <ul>
+    	<li>
+        <img src="../Image/icon_2.png" alt="" />
+        	<a href="">Giao hàng siêu nhanh trong 3h</a>
+           
+          </li>
+    </ul>
+    <ul>
+    	<li>
+        <img src="../Image/icon_3.png" alt="" />
+        	<a href="">Quy cách gọn gàng sạch và tiện lợi</a>
+    	</li>
+    </ul>
+   <ul>
+    	<li>
+        <img src="../Image/icon_4.png" alt="" />
+        	<a href="">Miễn phí giao hàng cho hóa đơn từ 500,000đ<br/>
+(Tại Bình Dương)</a>
+          </li>
+    </ul>
+        </li>
+    </ul>
+    </div>
+ 
+	 </div>
+ <div class="boxcenter"><!-- TemplateBeginEditable name="EditRegion3" -->
+  <div class="menu5">
+   <a href="../home.html">Trang chủ|</a> <a href="../NonBaoHiem.html">Nón Bảo Hiểm|</a> <a href="../FullFace4.html">Mũ Avex 3/4 Lava Dome</a><br/>
+    	Mũ Avex 3/4 Lava Dome<br/>
+       <a href=""> <img src="../Image/cach-cai-thien-danh-gia-san-pham-cua-shop-tren-shopee.png" /><br/></a>
+        <a href=""><s>400.000</s></a><span>đ</span><br/>
+        <a href="">250.000</a><span>đ</span><br/>
+        <table>
+       <tr>
+   				<td><input type="reset" value="Chọn số lượng" /></td>
+                <td><input type="submit1" value="-" /></td>
+                <td><input type="submit1" value="1" /></td>
+                <td><input type="submit1" value="+" /></td>
+        </tr>
+          
+     
+            
+             <tr>
+                <td><input type="reset" value="Chọn Size" /></td>
+    			<td><input type="submit1" value="M" /></td>
+                <td><input type="submit1" value="L" /></td>
+                <td><input type="submit1" value="XL" /></td>
+        	</tr>
+                
+                    
+            <tr>
+            <td>
+            		
+                  <input type="reset" value="ĐẶT HÀNG NGAY " /></td>
+            </tr>
+           
+        </table>
+        Bạn muốn tham khảo nhiều sản phẩm khác của shop?<a href="../NonBaoHiem.html">Click vào đây</a>
+     	
+        </div>
+        <div class="menu6">
+        <img src="../Image/mu-non-bao-hiem-34-JIEKAI-1-300x300.jpg.webp" alt="" />
+        Thông tin chi tiết về sản phẩm<br/>
+        – Thương hiệu: Avex<br/>
+        – Model: Lava Dome<br/>
+        – Sản xuất: Thái Lan<br/>
+        – Trọng lượng: 900g<br/>
+        – Không tháo lắp được lòng mũ<br/>
+        – Chất liệu: ABS nguyên sinh<br/>
+        – Đạt chuẩn: TIS (Thailand Industrial Standard) và Quates1 VN<br/>
+        </div>
+     
+        
+        <!-- TemplateEndEditable -->
+       
+        </div>
+</div>
+ <footer>
+  
+  </footer>   
+      
+</body>
+</html>

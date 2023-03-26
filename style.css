@@ -1,0 +1,457 @@
+.container{
+	width: 100%;
+	height:auto;
+	overflow:auto;
+}
+.container1{
+	width: 100%;
+	height:auto;
+	float:left;
+	overflow:auto;
+	background-color:#F0C;
+}
+.menu{
+	width:100%;
+	height:120px;
+	background-color: rgb(255,255,0);	
+}
+.menu1{
+	width:100%;
+	height:230px;
+	background-color: rgb(255,255,0);	
+}
+.up{
+	width:80%;
+	height:70px;
+	margin: 0 auto;	
+}
+.up ul{
+	list-style:none;
+	margin-top: 0px;
+	margin-left:0px;
+}
+.up ul li { 
+	display:inline-block;
+	padding:8px;
+}
+.up ul li a{ 
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+}
+.up ul li a img{ 
+	vertical-align:middle;
+	
+}
+.logo a{ 
+	padding-right: 30px;
+
+}
+.down{ 
+	height:50px;
+	width:80%;
+	margin:0 auto;
+}
+.search{
+	height:40px;
+	width:350px;
+	background-color:white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.search input{
+	width:280px;
+	height:35px;
+	border:0px;
+	padding-left: 20px;
+	font-size:15px;
+	border-radius:5px;
+
+}
+.search button{
+	border:0px;
+	
+}
+.search button img{
+	width:20px;
+	height:auto;
+	vertical-align:middle;
+}
+.search1{
+	height:40px;
+	width:350px;
+	background-color:white;
+	margin-right: 100px;
+	border-radius: 5px;
+	float:right;
+}
+.search1 input{
+	width:280px;
+	height:35px;
+	border:0px;
+	padding-left: 20px;
+	font-size:15px;
+	border-radius:5px;
+
+}
+.search1 button{
+	border:0px;
+	
+}
+.search1 button img{
+	width:20px;
+	height:auto;
+	vertical-align:middle;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style-type:none;
+	float:left;
+	padding:20px 20px;
+	font-size:11pt;
+}
+
+ul li:hover ul{
+	display:block;
+	position:absolute;
+
+}
+ul li a{
+	text-decoration:none;
+	color:#333;
+	font-weight:bold;
+}
+ul li ul{
+	display:none;
+	background-color:#FFF;
+	
+}
+ul li ul li{
+	float:none;
+	border-bottom:: 1px #CCC solid;
+	border-left: 1px #CCC solid;
+	border-right: 1px #CCC solid;
+	padding:5px 20px;
+}
+ul li ul li:first-child{
+	border-top:1px #CCC solid;
+}
+.article{
+	width:100%;
+	min-height::700px;
+	float:left;
+	margin:30px 0px;
+	
+}
+article{
+	width:100%;
+	height:auto;
+	float:none;	
+	margin:30px 0px;
+	overflow:auto;
+	background-color:#30F;
+	
+}
+.menu2{
+	width:16%;
+	float:left;
+	height:400px;
+	background-color:#0FF;
+	margin:10px 10px;
+	margin-right:100px;
+	text-align:center;
+
+}
+.menu2 a{
+	margin-top:800px;
+	color:#000;
+	text-decoration:none;
+}
+.menu4{
+	width:16%;
+	float:left;
+	height:450px;
+	background-color:#6FF;
+	margin:10px 10px;
+	margin-right:100px;
+	text-align:center;
+
+}
+.menu4 a{
+	margin-top:800px;
+	color:#000;
+	text-decoration:none;
+}
+.menu5{
+	width:30%;
+	float:right;
+	height:450px;
+	background-color:#FFF;
+	margin:10px 10px;
+	margin-right:100px;
+	text-align:left;
+	font-size:17px;
+
+}
+.menu5 a{
+	margin-top:800px;
+	color:#000;
+	text-decoration:none;
+	word-spacing:0.5pt;
+}
+.menu5 img{
+	width:40%;
+}
+.menu6{
+	width:30%;
+	float:right;
+	height:450px;
+	background-color:#FFF;
+	margin:10px 10px;
+	margin-right:100px;
+	text-align:left;
+	font-size:17px;
+
+}
+.menu6 a{
+	margin-top:800px;
+	color:#000;
+	text-decoration:none;
+}
+.menu6 img{
+	width:85%;
+}
+
+.menu3 a{
+	font-size:12pt;
+}
+.menu3 img{
+	float:left;
+	padding:5px;
+	width:25%;
+}
+.boxcenter{
+	width:70%;
+	margin-left:210px;
+}
+.boxcenter3{
+	text-align:center;
+}
+.boxcenter a{
+	text-decoration:none;
+	color:#00F;
+}
+.boxcenter2{
+	font-size:28px;
+	color:#00F;
+	text-align:center;
+}
+.content
+{
+	float:left;
+	width:25%;
+	margin-bottom:20px;
+	text-align:center;
+}
+.content a{
+	text-align-last:center;
+	color:#333;
+	text-decoration:none;
+	
+}
+.content a:hover{
+	color:#00F;
+}
+
+.item{
+	width:100%;
+}
+.item img{
+	padding-top:50px;
+	width:100%;
+	height:200px;
+	border-radius:5px;
+}
+.content1
+{
+	float:left;
+	width:25%;
+	margin-top:20px;
+	text-align:center;
+}
+.content1 a{
+	text-align-last:center;
+	color:#000;
+	text-decoration:none;
+	word-spacing:50px;
+	
+}
+.item1{
+	width:100%;
+}
+.item1 img{
+	width:100%;
+	height:150px;
+	border-radius:5px;
+}
+footer a{
+	padding-left:50px;
+	text-decoration:none;
+}
+
+footer{
+	width:100%;
+	float: right;
+	height:150px;
+	background-color:#0F0;
+}
+footer img{
+	width:20%;
+	float: right;
+}
+
+
+.boxdangky{
+	background-color:#EEE;
+	border-radius:10px;
+	padding:20px;
+	float:left;
+	width:50%
+}
+.boxdangky1{
+	width:50%;
+	background-color:#EEE;
+	float:right;
+	
+}
+.boxdangky1 img{
+	float:right;
+	margin:20px 10px;
+	
+}
+table{
+	width:100%;
+}
+td{
+	padding: 5px 0px;
+}
+input{
+	width:100%;
+}
+input[type="submit"]{
+	background-color:#0F0;
+	width:100px;
+	float:left;
+	color:#FFF;
+	padding: 10px 0px;
+	margin-right:10px;
+	border:1px #00FF00 solid;
+	border-radius:10px;
+}
+input[type="button"]{
+	background-color:#333;
+	width:150px;
+	float:left;
+	color:#FFF;
+	padding: 10px 0px;
+	border:1px #CCC solid;
+	border-radius:10px;
+}
+input[type="reset"]{
+	background-color:#F00;
+	width:120px;
+	float:left;
+	color:#FFF;
+	padding: 10px 0px;
+	border:1px #CCC solid;
+	border-radius:10px;
+}
+input[type="submit1"]{
+	background-color:#0F0;
+	width:95%;
+	float:left;
+	color:#FFF;
+	padding: 10px 0px;
+	border:1px #00FF00 solid;
+	border-radius:10px;
+	text-align:center;
+	font-size: 16px;
+}
+
+
+
+.boxdangnhap{
+	background-color:#EEE;
+	border-radius:10px;
+	padding:20px;
+	float:left;
+	width:60%
+}
+.boxdangnhap1{
+	float:right;
+	width:40%;
+	background-color:#EEE;
+	
+}
+.boxdangnhap1 img{
+	width:80%;
+	margin:20px 10px;
+	
+}
+.boxcenter4{
+	font-size:15pt;
+	float:none;
+	padding-right:5px;
+}
+.boxcenter4 img{
+	width:45%;
+	float:right;
+	height:250px;
+	padding-left:10px;
+}
+.boxcenter5{
+	font-size:15pt;
+	float:none;
+}
+.boxcenter5 img{
+	width:45px;
+	float:left;
+	height:100px;
+}
+.calendar{
+	border:1px solid #206AB5;
+	border-radius:4px;
+	margin-bottom:10px;
+	float:right;
+	margin-top:none;
+}
+.calendar table{
+	width:10px;
+	height:5px;
+	
+}
+.calendar table tr td.monthyear{
+	background-color:#F60;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	border:1px solid #666;
+}
+.calendar table tr.weektitle td{
+	text-align:center;
+	font-weight:bold;
+	border:1px solid #666;
+	background-color:#CCF;
+
+}
+.calendar table tr td.weekday{
+	text-align:center;
+	border:1px solid #666;
+
+}
+

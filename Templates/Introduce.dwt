@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body >
+	<div class="container">
+    	<div class="menu">
+    	<div class="up">
+           	<ul>
+       			<li  class="logo">
+                
+                <a href="../Home.html">
+                <img src="../Image/images (1).jpg" width="170" height="45" />
+                </a>
+                   <li>
+           			<a href="../Home.html">
+<img src="../Image/tải xuống (4).png" width="25" height="30" /> Trang chủ </a>
+                   </li>
+                   <li>
+           			<a href="../Introduce.html" >
+                    <img src="../Image/tải xuống (6).png"width="25" height="30" />
+                    
+                    Giới thiệu
+                    </a>
+                   </li>
+                   <li>
+           			<a href="../Product.html" >
+                    <img src="../Image/tải xuống (7).png" width="25" height="30" />
+                    Sản phẩm
+                    </a>
+                    <ul>
+                    	<ul>
+                    	 
+                        <li><a href="">Nón FullFace</a></li>
+                        <li><a href="">Nón 3/4</a></li>
+                        <li><a href="">Nón 1/2</a></li>
+                        <li><a href="">Móc Khoá</a></li>
+                        <li><a href="">Đồ bảo hộ</a></li>
+                       </ul>
+                     </ul>
+                        
+                    </li>
+                   <li>
+           			<a href="../Dangnhap.html" >
+                    <img src="../Image/tải xuống (9).png" width="25" height="30" /> Đăng Nhập</a>
+                   </li>
+                   <li>
+           			<a href="../Dangky.html" >
+                    <img src="../Image/images (3).png" width="25" height="30" />
+                    Đăng Ký
+                    </a>
+                   </li>
+           		</ul>
+            </div>
+         <div class="down">
+            <div class="search">
+            	<input type="" name="" placeholder="Tìm kiếm trên Phượt Travel" />
+                	<button><img src="../Image/tải xuống (8).png" /></button>
+              
+                        
+            </div>
+         </div>
+            
+</div>
+ <div class="article">
+ 	<div class="menu2">
+    <a href="#">DANH MỤC SẢN PHẨM</a>
+    <div class="menu3">
+    <ul>
+    	<li>
+        	<a href="#">Mũ Bảo Hiểm</a>
+            <ul>
+                  <li><a href="#">Nón FullFace</a>
+                  </li>
+                <li>
+                <a href="#">Nón 3/4</a>
+                </li>
+                <li>
+                <a href="#">Nón 1/2</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    
+   <ul>
+    	<li>
+        	<a href="#">Đồ Bảo Hộ</a>
+            <ul>
+                  <li><a href="#">Áo& Quần bảo hộ</a>
+                  </li>
+                <li>
+                <a href="#">Găng Tay</a>
+                </li>
+                <li>
+                <a href="#">Ba Lô& Giày Phượt</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    <ul>
+    	<li>
+        	<a href="#">Móc Khoá</a>
+    	</li>
+    </ul>
+   <ul>
+    	<li>
+        	<a href="#">Theo Đơn Giá</a>
+            <ul>
+                  <li><a href="#">Dưới 300.000đ</a>
+                  </li>
+                <li>
+                <a href="#">Từ 300.000đ- 600.000đ</a>
+                </li>
+                <li>
+                <a href="#">Trên 600.000đ</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+        </li>
+    </ul>
+    </div>
+ 
+	 </div>
+ <div class="boxcenter"><!-- TemplateBeginEditable name="EditRegion3" -->
+ 
+     <div class="boxcenter4">
+     	 Phượt Travel Store tự hào là đại lý cung cấp các sản phẩm dành cho dân phượt chính hãng uy tín trên toàn quốc. Hiện chúng mình đang có các cơ sở tại Đồng Nai và TPHCM.<br/>
+         <img src="../Image/images (3).jpg" alt="" />
+Bên cạnh đó chúng mình còn là đại lý của một số thương hiệu nón bảo hiểm như Yohe, LS2, EGO, Bulldog,… và các mặt hàng phụ kiện bảo hộ như găng tay, giáp, phụ kiện phượt.<br/>
+Lý do nên sử dụng sản phẩm ở Phượt Travel:<br/>
+Chắc hẳn ai trong chúng ta khi tham gia giao thông đều cảm thấy quan ngại với tình hình giao thông tại Việt Nam. Vì vậy các bạn đừng bỏ qua các lý do dưới đây nha:<br/>
+<li>
+
+Nón bảo hiểm ở shop đa dạng, nhiều sự lựa chọn và đạt chuẩn chất lượng cũng như là các tiêu chuẩn an toàn cơ bản. Khi xảy ra va chạm thì đội nón tốt sẽ giảm thiểu mức độ chấn thương.<br/></li>
+<li>
+Các dòng sản phẩm may mặc như đồ giáp, áo mưa, balo túi treo… đều có nhiều kích cỡ, kiểu dáng dễ dàng lựa chọn và luôn có phản quang sáng mạnh giúp đi đêm an toàn hơn.<br/></li>
+<li>
+Các chính sách bảo hành, đổi trả rõ ràng, tiện lợi khi mua hàng Givi tại các đại lý chính hãng như Đồ Phượt Store.
+</li>
+     </div>
+   <!-- TemplateEndEditable -->
+  </div>
+</div>
+  <div class="footer">
+  </div>
+    <div class="footer2">
+      
+   </div>
+      
+</body>
+</html>

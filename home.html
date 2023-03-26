@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body >
+<script language="javascript">
+var s="Chào Mừng Bạn Đến Với phượt Travel Store";
+	document.write("");
+	 alert(s.toUpperCase() );
+	</script>
+
+    
+    <div class="content1">
+    <div class="item1">
+    <img src="Image/images1(1).jpg" alt="" height="120" />
+    SÁT CÁNH MỌI CUNG ĐƯỜNG
+    </div>
+    </div>
+    <div class="calendar">
+    <script LANGUAGE = "JavaScript">
+	monthnames = new Array("January","Februrary","March","April","May","June","July","August","September","October","November","Decemeber");
+	var linkcount=0;
+	function addlink(month,day,href){
+	var entry =new Array(3);
+	entry[0]=month;
+	entry[1]=day;
+	entry[2]=href;
+	this[linkcount++]=entry;
+	}Array.prototype.addlink =addlink;
+	linkdays =new Array();
+	monthdays =new Array(12);
+	monthdays[0]=31;
+	monthdays[1]=28;
+	monthdays[2]=31;
+	monthdays[3]=30;
+	monthdays[4]=31;
+	monthdays[5]=30;
+	monthdays[6]=31;
+	monthdays[7]=31;
+	monthdays[8]=30;
+	monthdays[9]=31;
+	monthdays[10]=30;
+	monthdays[11]=31;
+	todayDate=new Date();
+	thisday=todayDate.getDay();
+	thismonth=todayDate.getMonth();
+	thisdate=todayDate.getDate();
+	thisyear=todayDate.getYear();
+	thisyear =thisyear %100;
+	thisyear =((thisyear <50)?(2000+thisyear):(1900+thisyear));
+	if(((thisyear %4==0)&&!(thisyear %100==0))||(thisyear %400==0))monthdays[1]++;startspaces=thisdate;
+	while(startspaces >7)startspaces-=7;
+	startspaces =thisday -startspaces +1;
+	if(startspaces <0)startspaces+=7;
+	document.write("<table>");
+	document.write("<tr><td colspan=7 class='monthyear'>"+monthnames[thismonth]+" " +thisyear+"</td></tr>");
+	document.write("<tr class='weektitle'>");
+	document.write("<td align=center>Sun</td>");
+	document.write("<td align=center>Mon</td>");
+	document.write("<td align=center>Tus</td>");
+	document.write("<td align=center>Wed</td>");
+	document.write("<td align=center>Thu</td>");
+	document.write("<td align=center>Fri</td>");
+	document.write("<td align=center>Sat</td>");
+	document.write("</tr>");
+	document.write("<tr>");
+	for(s=0;s<startspaces;s++){
+		document.write("<td> </td>");
+	}
+	count=1;
+	while(count <=monthdays[thismonth]){for(b =startspaces;b<7;b++){
+		linktrue=false;
+		document.write("<td class='weekday'>");
+		for(c=0;c<linkdays.length;c++){
+			if(linkdays[c]!= null){
+				if((linkdays[c][0]==thismonth +1)&&(linkdays[c][1]==count)){
+					document.write("<a href=\"" +linkdays[c][2]+"\">");
+					linktrue=true;
+					}
+				}
+			}
+			if(count== thisdate){
+				document.write("<font color='FF0000'><strong>");
+			}
+			if(count <=monthdays[thismonth]){
+				document.write(count);
+			}
+			else{
+				document.write(" ");
+			}
+			if(count==thisdate){
+				document.write("</strong></font>");
+			}
+			if(linktrue)
+			document.write("</a>");
+			document.write("</td>");
+			count++;
+			}
+			document.write("</tr>");
+			document.write("<tr>");
+			startspaces=0;
+			}
+			document.write("</table>");
+
+ </script>
+ </div>
+
+	<div class="container">
+    	<div class="menu">
+    	<div class="up">
+           	<ul>
+            <!-- 
+       			<li  class="logo">
+                
+                <a href="home.html">
+                <img src="Image/images (1).jpg" width="170" height="45" />
+                </a>
+                <!-->
+                   <li>
+           			<a href="Home.html">
+<img src="Image/tải xuống (4).png" width="25" height="30" /> Trang chủ </a>
+                   </li>
+                   <li>
+           			<a href="Introduce.html" >
+                    <img src="Image/tải xuống (6).png"width="25" height="30" />
+                    
+                    Giới thiệu
+                    </a>
+                   </li>
+                   <li>
+           			<a href="Product.html" >
+                    <img src="Image/tải xuống (7).png" width="25" height="30" />
+                    Sản phẩm
+                    </a>
+                    <ul>
+                    	<ul>
+                    	 
+                        <li><a href="NonBaoHiem.html">Mũ Bảo Hiểm</a></li>
+                        
+                        <li><a href="MocKhoa.html">Móc Khoá</a></li>
+                        <li><a href="DoBaoHo.html">Đồ bảo hộ</a></li>
+                       </ul>
+                     </ul>
+                        
+                    </li>
+                   <li>
+           			<a href="Dangnhap.html" >
+                    <img src="Image/tải xuống (9).png" width="25" height="30" /> Đăng Nhập</a>
+                   </li>
+                   <li>
+           			<a href="Dangky.html" >
+                    <img src="Image/images (3).png" width="25" height="30" />
+                    Đăng Ký
+                    </a>
+                   </li>
+                    <li>
+           			<a href="Contact.html" >
+                    <img src="Image/tải xuống (5).png" width="25" height="30" /> Liên Hệ</a>
+                   </li>
+                   
+           		</ul>
+            </div>
+         <div class="down">
+         <div class="search">
+            	<input type="" name="" placeholder="Tìm kiếm trên Phượt Travel" />
+                	<button><img src="Image/tải xuống (8).png" /></button>
+              
+                        
+            </div>
+          </div>
+            
+</div>
+ <div class="article">
+ 	<div class="menu2">
+    <a href="#">DANH MỤC SẢN PHẨM</a>
+    <div class="menu3">
+     <ul>
+    	<li>
+        	<a href="NonBaoHiem.html">Mũ Bảo Hiểm</a>
+            <ul>
+                  <li><a href="NonFullFace.html">Mũ FullFace</a>
+                  </li>
+                <li>
+                <a href="NonBaTu.html">Mũ 3/4</a>
+                </li>
+                <li>
+                <a href="NonMotHai.html">Mũ 1/2</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    
+   <ul>
+    	<li>
+        	<a href="DoBaoHo.html">Đồ Bảo Hộ</a>
+            <ul>
+                  <li><a href="Ao- Quan& GangTayBaoHo.html">Áo& Quần bảo hộ</a>
+                  </li>
+                <li>
+                <a href="Ao- Quan& GangTayBaoHo.html">Găng Tay</a>
+                </li>
+                <li>
+                <a href="BaLo&GiayPhuot.html">Ba Lô& Giày Phượt</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    <ul>
+    	<li>
+        	<a href="MocKhoa.html">Móc Khoá</a>
+    	</li>
+    </ul>
+   <ul>
+    	<li>
+        	<a href="#">Theo Đơn Giá</a>
+            <ul>
+                  <li><a href="Duoi300k.html">Dưới 300.000đ</a>
+                  </li>
+                <li>
+                <a href="Tu300den600k.html">Từ 300.000đ- 600.000đ</a>
+                </li>
+                <li>
+                <a href="Tren600k.html">Trên 600.000đ</a>
+                </li>
+        
+            </ul>
+          </li>
+    </ul>
+        </li>
+    </ul>
+    </div>
+ </div>
+ 
+ <div class="boxcenter">
+         <div class="boxcenter2">
+            <center>Sản phẩm bán chạy</center>
+         </div>
+ 	
+ 	<div class="content">
+	
+    	<div class="item">
+        	<a href="FullFace1.html"><img src="Image/mu-fullface-yohe-970-do-xuoc-2-kinh-7A8QK2.jpg" alt="" /></a>
+        	<a href="FullFace1.html">Mũ Yohe 970 2 Kính<br/>
+        	  </a>
+        	  <strong>650.000</strong> <b><s>900.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+		<div class="content">
+	
+    	<div class="item">
+        	<a href="FullFace2.html"><img src="Image/mu-non-bao-hiem-fullface-ego-den-vang-bong-300x300.jpg.webp" alt="" /></a>
+        	<a href="FullFace2.html">Mũ bảo hiểm fullface EGO<br/>
+        	  </a>
+        	  <strong>450.000</strong> <b><s>700.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+	<div class="content">
+	
+    	<div class="item">
+        	<a href="NonBaTu2.html"><img src="Image/mu-non-bao-hiem-ls2-bob-of-601-carbon-8-300x300.jpg" alt="" /></a>
+        	<a href="NonBaTu2.html">Mũ bảo hiểm Asia MT168<br/>
+        	  </a>
+        	  <strong>270.000</strong> <b><s>350.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+		<div class="content">
+  
+	
+    	<div class="item">
+        	<a href="MocKhoa1.html"><img src="Image/20200228_181957_e441797c289c49b1a31fdf9de5f2cb2b_master.webp" alt="" /></a>
+        	<a href="MocKhoa1.html">Móc Khóa Gỗ Mimi Dễ Thương<br/>
+        	  </a>
+        	  <strong>25.000</strong> <b><s>40.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+    	 <div class="content">
+	
+    	<div class="item">
+        	<a href="NonMotHai1.html"><img src="Image/332c9fe8ce8f41158b609d7a07230703.png" alt="" /></a>
+        	<a href="NonMotHai1.html">Mũ bảo hiểm 1/2 – Asia MT128<br/>
+        	  </a>
+        	  <strong>150.000</strong> <b><s>200.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+		          <div class="content">
+	
+    	<div class="item">
+        	<a href="MocKhoa2.html"><img src="Image/y.png" alt="" /></a>
+        	<a href="MocKhoa2.html">Móc khóa BIKER - MOTOR<br/>
+        	  </a>
+        	  <strong>35.000</strong> <b><s>45.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+</div>
+   
+ <footer>
+                <img src="Image/payment-icon.png.webp" alt="" />
+   <a href="">     <center>Bản quyền thuộc về Phượt Travel Store<br/>
+                </center><br/>
+ 
+               
+Phượt Travel Store - SÁT CÁNH MỌI CUNG ĐƯỜNG<br/>
+ <img src="Image/thong-bao-bo-cong-thuong.png" />
+Đ/c: Nguyễn Thị Minh Khai- P.Phú Hoà- Tp.Thủ Dầu Một- T.Bình Dương <br/>
+Tel: 0123456789<br/>
+Email: phuottravel@gmail.com</a>
+
+  
+  </footer>   
+      
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body >
+	<div class="content1">
+    <div class="item1">
+    <img src="Image/images1(1).jpg" alt="" height="120" />
+    SÁT CÁNH MỌI CUNG ĐƯỜNG
+    </div>
+    </div>
+    <div class="calendar">
+    <script LANGUAGE = "JavaScript">
+	monthnames = new Array("January","Februrary","March","April","May","June","July","August","September","October","November","Decemeber");
+	var linkcount=0;
+	function addlink(month,day,href){
+	var entry =new Array(3);
+	entry[0]=month;
+	entry[1]=day;
+	entry[2]=href;
+	this[linkcount++]=entry;
+	}Array.prototype.addlink =addlink;
+	linkdays =new Array();
+	monthdays =new Array(12);
+	monthdays[0]=31;
+	monthdays[1]=28;
+	monthdays[2]=31;
+	monthdays[3]=30;
+	monthdays[4]=31;
+	monthdays[5]=30;
+	monthdays[6]=31;
+	monthdays[7]=31;
+	monthdays[8]=30;
+	monthdays[9]=31;
+	monthdays[10]=30;
+	monthdays[11]=31;
+	todayDate=new Date();
+	thisday=todayDate.getDay();
+	thismonth=todayDate.getMonth();
+	thisdate=todayDate.getDate();
+	thisyear=todayDate.getYear();
+	thisyear =thisyear %100;
+	thisyear =((thisyear <50)?(2000+thisyear):(1900+thisyear));
+	if(((thisyear %4==0)&&!(thisyear %100==0))||(thisyear %400==0))monthdays[1]++;startspaces=thisdate;
+	while(startspaces >7)startspaces-=7;
+	startspaces =thisday -startspaces +1;
+	if(startspaces <0)startspaces+=7;
+	document.write("<table>");
+	document.write("<tr><td colspan=7 class='monthyear'>"+monthnames[thismonth]+" " +thisyear+"</td></tr>");
+	document.write("<tr class='weektitle'>");
+	document.write("<td align=center>Sun</td>");
+	document.write("<td align=center>Mon</td>");
+	document.write("<td align=center>Tus</td>");
+	document.write("<td align=center>Wed</td>");
+	document.write("<td align=center>Thu</td>");
+	document.write("<td align=center>Fri</td>");
+	document.write("<td align=center>Sat</td>");
+	document.write("</tr>");
+	document.write("<tr>");
+	for(s=0;s<startspaces;s++){
+		document.write("<td> </td>");
+	}
+	count=1;
+	while(count <=monthdays[thismonth]){for(b =startspaces;b<7;b++){
+		linktrue=false;
+		document.write("<td class='weekday'>");
+		for(c=0;c<linkdays.length;c++){
+			if(linkdays[c]!= null){
+				if((linkdays[c][0]==thismonth +1)&&(linkdays[c][1]==count)){
+					document.write("<a href=\"" +linkdays[c][2]+"\">");
+					linktrue=true;
+					}
+				}
+			}
+			if(count== thisdate){
+				document.write("<font color='FF0000'><strong>");
+			}
+			if(count <=monthdays[thismonth]){
+				document.write(count);
+			}
+			else{
+				document.write(" ");
+			}
+			if(count==thisdate){
+				document.write("</strong></font>");
+			}
+			if(linktrue)
+			document.write("</a>");
+			document.write("</td>");
+			count++;
+			}
+			document.write("</tr>");
+			document.write("<tr>");
+			startspaces=0;
+			}
+			document.write("</table>");
+
+ </script>
+ </div>
+    
+	<div class="container">
+    	<div class="menu">
+    	<div class="up">
+           	<ul>
+            <!-- 
+       			<li  class="logo">
+                
+                <a href="home.html">
+                <img src="Image/images (1).jpg" width="170" height="45" />
+                </a>
+                <!-->
+                   <li>
+           			<a href="Home.html">
+<img src="Image/tải xuống (4).png" width="25" height="30" /> Trang chủ </a>
+                   </li>
+                   <li>
+           			<a href="Introduce.html" >
+                    <img src="Image/tải xuống (6).png"width="25" height="30" />
+                    
+                    Giới thiệu
+                    </a>
+                   </li>
+                   <li>
+           			<a href="Product.html" >
+                    <img src="Image/tải xuống (7).png" width="25" height="30" />
+                    Sản phẩm
+                    </a>
+                    <ul>
+                    	<ul>
+                    	 
+                        <li><a href="NonBaoHiem.html">Mũ Bảo Hiểm</a></li>
+                        
+                        <li><a href="MocKhoa.html">Móc Khoá</a></li>
+                        <li><a href="DoBaoHo.html">Đồ bảo hộ</a></li>
+                       </ul>
+                     </ul>
+                        
+                    </li>
+                   <li>
+           			<a href="Dangnhap.html" >
+                    <img src="Image/tải xuống (9).png" width="25" height="30" /> Đăng Nhập</a>
+                   </li>
+                   <li>
+           			<a href="Dangky.html" >
+                    <img src="Image/images (3).png" width="25" height="30" />
+                    Đăng Ký
+                    </a>
+                   </li>
+                    <li>
+           			<a href="Contact.html" >
+                    <img src="Image/tải xuống (5).png" width="25" height="30" /> Liên Hệ</a>
+                   </li>
+                   
+           		</ul>
+            </div>
+         <div class="down">
+         <div class="search">
+            	<input type="" name="" placeholder="Tìm kiếm trên Phượt Travel" />
+                	<button><img src="Image/tải xuống (8).png" /></button>
+              
+                        
+            </div>
+          </div>
+            
+</div>
+ <div class="article">
+ 	<div class="menu4">
+    <ul>
+    <a href="#">Cam Kết</a>
+    </ul>
+    <div class="menu3">
+     <ul>
+		
+    	<li>
+         <img src="Image/icon_1.png" alt="" />
+        	<a href=""> Sản phẩm cam kết chất lượng</a>
+            
+          </li>
+          
+    </ul>
+    
+   <ul>
+    	<li>
+        <img src="Image/icon_2.png" alt="" />
+        	<a href="">Giao hàng siêu nhanh trong 3h</a>
+           
+          </li>
+    </ul>
+    <ul>
+    	<li>
+        <img src="Image/icon_3.png" alt="" />
+        	<a href="">Quy cách gọn gàng sạch và tiện lợi</a>
+    	</li>
+    </ul>
+   <ul>
+    	<li>
+        <img src="Image/icon_4.png" alt="" />
+        	<a href="">Miễn phí giao hàng cho hóa đơn từ 500,000đ<br/>
+(Tại Bình Dương)</a>
+          </li>
+    </ul>
+        </li>
+    </ul>
+    </div>
+ 
+	 </div>
+ <div class="boxcenter"><!-- TemplateBeginEditable name="EditRegion3" -->
+  <div class="menu5">
+   <a href="home.html">Trang chủ|</a> <a href="NonBaoHiem.html">Mũ Bảo Hiểm|</a> <a href="FullFace3.html">Mũ bảo hiểm fullface MT136</a><br/>
+    	Mũ bảo hiểm fullface MT136<br/>
+        <img src="Image/cach-cai-thien-danh-gia-san-pham-cua-shop-tren-shopee.png" /><br/>
+       <a href=""> <s>600.000</s></a><span>đ</span><br/>
+        <a href="">350.000</a><span>đ</span><br/>
+        <table>
+       <tr>
+   				<td><input type="reset" value="Chọn số lượng" /></td>
+                <td><input type="submit1" value="-" /></td>
+                <td><input type="submit1" value="1" /></td>
+                <td><input type="submit1" value="+" /></td>
+        </tr>
+          
+     
+            
+             <tr>
+                <td><input type="reset" value="Chọn Size" /></td>
+    			<td><input type="submit1" value="M" /></td>
+                <td><input type="submit1" value="L" /></td>
+                <td><input type="submit1" value="XL" /></td>
+        	</tr>
+                
+                    
+            <tr>
+            <td>
+            		
+                  <input type="reset" value="ĐẶT HÀNG NGAY " /></td>
+            </tr>
+           
+        </table>
+        Bạn muốn tham khảo nhiều sản phẩm khác của shop?<a href="NonBaoHiem.html">Click vào đây</a>
+     	
+        </div>
+        <div class="menu6">
+        <img src="Image/mu-bao-hiem-fullface-m136-den-nham.jpg.webp" alt="" />
+        Thông tin chi tiết về sản phẩm<br/>
+        – Thương hiệu: Asia<br/>
+        – Model: MT136<br/>
+        – Trọng lượng: 970g<br/>
+        – Loại: 1 kính<br/>
+        – Bảo hành: 1 Năm (dây, quai, chốt)<br/>
+        – Form nhỏ gọn, kiểu dáng thể thao, mạnh mẽ<br/>
+        </div>
+     
+        
+        <!-- TemplateEndEditable -->
+       
+        </div>
+</div>
+  <footer>
+                <img src="Image/payment-icon.png.webp" alt="" />
+   <a href="">     <center>Bản quyền thuộc về Phượt Travel Store<br/>
+                </center><br/>
+ 
+               
+Phượt Travel Store - SÁT CÁNH MỌI CUNG ĐƯỜNG<br/>
+ <img src="Image/thong-bao-bo-cong-thuong.png" />
+Đ/c: Nguyễn Thị Minh Khai- P.Phú Hoà- Tp.Thủ Dầu Một- T.Bình Dương <br/>
+Tel: 0123456789<br/>
+Email: phuottravel@gmail.com</a>
+
+  
+  </footer>   
+      
+</body>
+</html>
+>

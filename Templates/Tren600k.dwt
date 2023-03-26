@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body >
+	<div class="container">
+    	<div class="menu">
+    	<div class="up">
+           	<ul>
+       			<li  class="logo">
+                
+                <a href="../home.html">
+                <img src="../Image/images (1).jpg" width="170" height="45" />
+                </a>
+                   <li>
+           			<a href="../Home.html">
+<img src="../Image/tải xuống (4).png" width="25" height="30" /> Trang chủ </a>
+                   </li>
+                   <li>
+           			<a href="../Introduce.html" >
+                    <img src="../Image/tải xuống (6).png"width="25" height="30" />
+                    
+                    Giới thiệu
+                    </a>
+                   </li>
+                   <li>
+           			<a href="../Product.html" >
+                    <img src="../Image/tải xuống (7).png" width="25" height="30" />
+                    Sản phẩm
+                    </a>
+                    <ul>
+                    	<ul>
+                    	 
+                        <li><a href="../NonBaoHiem.html">Nón Bảo Hiểm</a></li>
+                        
+                        <li><a href="../MocKhoa.html">Móc Khoá</a></li>
+                        <li><a href="../DoBaoHo.html">Đồ bảo hộ</a></li>
+                       </ul>
+                     </ul>
+                        
+                    </li>
+                   <li>
+           			<a href="../Dangnhap.html" >
+                    <img src="../Image/tải xuống (9).png" width="25" height="30" /> Đăng Nhập</a>
+                   </li>
+                   <li>
+           			<a href="../Dangky.html" >
+                    <img src="../Image/images (3).png" width="25" height="30" />
+                    Đăng Ký
+                    </a>
+                   </li>
+           		</ul>
+            </div>
+         <div class="down">
+            <div class="search">
+            	<input type="" name="" placeholder="Tìm kiếm trên Phượt Travel" />
+                	<button><img src="../Image/tải xuống (8).png" /></button>
+              
+                        
+            </div>
+         </div>
+            
+</div>
+ <div class="article">
+ 	<div class="menu2">
+    <a href="#">DANH MỤC SẢN PHẨM</a>
+    <div class="menu3">
+     <ul>
+    	<li>
+        	<a href="#">Nón Bảo Hiểm</a>
+            <ul>
+                  <li><a href="../NonFullFace.html">Nón FullFace</a>
+                  </li>
+                <li>
+                <a href="../NonBaTu.html">Nón 3/4</a>
+                </li>
+                <li>
+                <a href="../NonMotHai.html">Nón 1/2</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    
+   <ul>
+    	<li>
+        	<a href="#">Đồ Bảo Hộ</a>
+            <ul>
+                  <li><a href="../Ao- Quan&amp; GangTayBaoHo.html">Áo& Quần bảo hộ</a>
+                  </li>
+                <li>
+                <a href="../Ao- Quan&amp; GangTayBaoHo.html">Găng Tay</a>
+                </li>
+                <li>
+                <a href="../BaLo&amp;GiayPhuot.html">Ba Lô& Giày Phượt</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    <ul>
+    	<li>
+        	<a href="../MocKhoa.html">Móc Khoá</a>
+    	</li>
+    </ul>
+   <ul>
+    	<li>
+        	<a href="#">Theo Đơn Giá</a>
+            <ul>
+                  <li><a href="../Duoi300k.html">Dưới 300.000đ</a>
+                  </li>
+                <li>
+                <a href="../Tu300den600k.html">Từ 300.000đ- 600.000đ</a>
+                </li>
+                <li>
+                <a href="../Tren600k.html">Trên 600.000đ</a>
+                </li>
+        
+            </ul>
+          </li>
+    </ul>
+        </li>
+    </ul>
+    </div>
+ 
+	 </div>
+ 	<!-- TemplateBeginEditable name="EditRegion3" -->
+ <div class="boxcenter">
+         <div class="boxcenter2">
+            <center>Từ 300.000đ- 600.000đ</center>
+         </div>
+ 			 <div class="content">
+	
+    	<div class="item">
+        	<img src="../Image/mu-bao-hiem-fullface-m136-den-nham.jpg.webp" alt="" />
+        	<a href="#">Mũ bảo hiểm fullface MT136<br/>
+        	  </a>
+        	  <strong>350.000</strong> <b><s>600.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+                <div class="content">
+	
+    	<div class="item">
+        	<img src="../Image/mu-non-bao-hiem-fullface-ego-den-vang-bong-300x300.jpg.webp" alt="" />
+        	<a href="#">Mũ bảo hiểm fullface EGO<br/>
+        	  </a>
+        	  <strong>450.000</strong> <b><s>700.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+                <div class="content">
+	
+    	<div class="item">
+        	<img src="../Image/mu-non-bao-hiem-fullface-m136-V12-royal-300x300.jpg.webp" alt="" />
+        	<a href="#">Mũ bảo hiểm fullface Royal M136<br/>
+        	  </a>
+        	  <strong>550.000</strong> <b><s>700.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+                <div class="content">
+	
+    	<div class="item">
+        	<img src="../Image/mu-bao-hiem-3-4-m20b-royal-den-2-300x300.jpg.webp" alt="" />
+        	<a href="#">Mũ bảo hiểm 3/4 M20B<br/>
+        	  </a>
+        	  <strong>420.000</strong> <b><s>750.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+ 			<div class="content">
+  
+	
+    	<div class="item">
+        	<img src="../Image/ao-giap-probiker-300x300.png.webp" alt="" />
+        	<a href="#">Áo Giáp Hero Biker<br/>
+        	  </a>
+        	  <strong>350.000</strong> <b><s>400.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+                <div class="content">
+	
+    	<div class="item">
+        	<img src="../Image/pk-718-xanh-duong-3-300x300.jpg.webp" alt="" />
+        	<a href="#">Quần Giáp Komine Jean JK718<br/>
+        	  </a>
+        	  <strong>550.000</strong> <b><s>800.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+                 <div class="content">
+	
+    	<div class="item">
+        	<img src="../Image/giay-di-phuot-original-SWAT-cao-co-den-1-300x300.jpg" alt="" />
+        	<a href="#">Giày Đi Phượt Original SWAT Cổ Cao<br/>
+        	  </a>
+        	  <strong>450.000</strong> <b><s>650.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+                <div class="content">
+	
+    	<div class="item">
+        	<img src="../Image/giay-511-co-cao-chuyen-phuot-1m4G3-4ZsCNq_simg_d0daf0_800x1200_max1-300x300.jpg" alt="" />
+        	<a href="#">Giày Đi Phượt 5.11 Cổ Cao<br/>
+        	  </a>
+        	  <strong>350.000</strong> <b><s>600.000đ</s> <span>đ</span></b>
+      			</div>
+                </div>
+       
+      
+            <!-- TemplateEndEditable -->
+</div>
+ <footer>
+  
+  </footer>   
+      
+</body>
+</html>

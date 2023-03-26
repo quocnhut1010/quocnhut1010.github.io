@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body >
+	<div class="container">
+    	<div class="menu">
+    	<div class="up">
+           	<ul>
+       			<li  class="logo">
+                
+                <a href="Home.html">
+                <img src="../Image/images (1).jpg" width="170" height="45" />
+                </a>
+                   <li>
+           			<a href="../Home.html">
+<img src="../Image/tải xuống (4).png" width="25" height="30" /> Trang chủ </a>
+                   </li>
+                   <li>
+           			<a href="../Introduce.html" >
+                    <img src="../Image/tải xuống (6).png"width="25" height="30" />
+                    
+                    Giới thiệu
+                    </a>
+                   </li>
+                   <li>
+           			<a href="../Product.html" >
+                    <img src="../Image/tải xuống (7).png" width="25" height="30" />
+                    Sản phẩm
+                    </a>
+                    <ul>
+                    	<ul>
+                    	 
+                        <li><a href="">Nón FullFace</a></li>
+                        <li><a href="">Nón 3/4</a></li>
+                        <li><a href="">Nón 1/2</a></li>
+                        <li><a href="">Móc Khoá</a></li>
+                        <li><a href="">Đồ bảo hộ</a></li>
+                       </ul>
+                     </ul>
+                        
+                    </li>
+                   <li>
+           			<a href="../Dangnhap.html" >
+                    <img src="../Image/tải xuống (9).png" width="25" height="30" /> Đăng Nhập</a>
+                   </li>
+                   <li>
+           			<a href="../Dangky.html" >
+                    <img src="../Image/images (3).png" width="25" height="30" />
+                    Đăng Ký
+                    </a>
+                   </li>
+           		</ul>
+            </div>
+         <div class="down">
+            <div class="search">
+            	<input type="" name="" placeholder="Tìm kiếm trên Phượt Travel" />
+                	<button><img src="../Image/tải xuống (8).png" /></button>
+              
+                        
+            </div>
+         </div>
+            
+</div>
+ <div class="article">
+ 	<div class="menu2">
+    <a href="#">DANH MỤC SẢN PHẨM</a>
+    <div class="menu3">
+    <ul>
+    	<li>
+        	<a href="#">Mũ Bảo Hiểm</a>
+            <ul>
+                  <li><a href="#">Nón FullFace</a>
+                  </li>
+                <li>
+                <a href="#">Nón 3/4</a>
+                </li>
+                <li>
+                <a href="#">Nón 1/2</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    
+   <ul>
+    	<li>
+        	<a href="#">Đồ Bảo Hộ</a>
+            <ul>
+                  <li><a href="#">Áo& Quần bảo hộ</a>
+                  </li>
+                <li>
+                <a href="#">Găng Tay</a>
+                </li>
+                <li>
+                <a href="#">Ba Lô& Giày Phượt</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+    <ul>
+    	<li>
+        	<a href="#">Móc Khoá</a>
+    	</li>
+    </ul>
+   <ul>
+    	<li>
+        	<a href="#">Theo Đơn Giá</a>
+            <ul>
+                  <li><a href="#">Dưới 300.000đ</a>
+                  </li>
+                <li>
+                <a href="#">Từ 300.000đ- 600.000đ</a>
+                </li>
+                <li>
+                <a href="#">Trên 600.000đ</a>
+                </li>
+            </ul>
+          </li>
+    </ul>
+        </li>
+    </ul>
+    </div>
+ 
+	 </div>
+ <div class="boxcenter"><!-- TemplateBeginEditable name="EditRegion3" -->
+ 
+       
+           <!-- TemplateEndEditable -->
+</div>
+  <div class="footer">
+  </div>
+    <div class="footer2">
+      
+   </div>
+      
+</body>
+</html>
